@@ -1,24 +1,63 @@
 import './faculty.css'
-import chandanImg from './chandan.jpeg'
+import ronitImg from './ronit.jpeg'
+import pritamImg from './pritam.jpeg'
 import rubinaImg from './rubina.jpeg'
+import chandanImg from './chandan.jpeg'
+import rajeshImg from './rajesh.jpeg'
+import debulalImg from './debulal.jpeg'
+
+
 
 function Faculty() {
   const teachers = [
     {
-      name: "CHANDAN PRADHAN", // Replace with your friend's name
+      name: "RONIT KUMAR ROUL", // <-- Type his real name here!
+      subject: "Founder & CEO",
+      qualification: "Visionary Strategist",
+      image: ronitImg, // <-- Change to brotherImg later
+      experience: "Project Mastermind",
+      description: "The original visionary behind LearnBuddy. He conceptualized the platform to make digital learning engaging and fun for every student."
+    },
+    {
+      name: "PRITAM KUMAR MOHANTY",
+      subject: "Lead Web Developer",
+      qualification: "Full Stack Developer",
+      image: pritamImg, // <-- Change to pritamImg later
+      experience: "3 years",
+      description: "The technical architect behind LearnBuddy. Specializing in building modern, responsive, and blazing-fast user interfaces."
+    },
+    
+    {
+      name: "RUBINA BEURA", 
+      subject: "Social Science",
+      qualification: "Qualified TGT , Govt of Odisha",
+      image: rubinaImg, 
+      experience: "4+ Years",
+      description: "Passionate about history and geography, bringing social sciences to life."
+    },
+    {
+      name: "CHANDAN PRADHAN",
       subject: "Mathematics",
-      qualification: "TGT Mathematics Qualified",
-      image: chandanImg , 
-      experience: "5+ Years",
+      qualification: "TGT Mathematics, OAVS",
+      image: chandanImg, 
+      experience: "3+ Years",
       description: "A dedicated educator making math fun and easy to understand for young minds."
     },
     {
-      name: "RUBINA BEURA", // Replace with your relative's name
-      subject: "Social Science",
-      qualification: "Qualified TGT SSC",
-      image : rubinaImg ,
-      experience: "4+ Years",
+      name: "RAJESH KUMAR BEURA",
+      subject: "GK & Current Affairs",
+      qualification: "BA GRADUATED",
+      image: rajeshImg,
+      experience: "1+ Years",
       description: "Passionate about history and geography, bringing social sciences to life."
+    },
+    {
+      name: "DEBULAL DAS",
+      subject: "IT & Computer Science",
+      qualification: "BA GRADUATE",
+      image: debulalImg,
+      experience: "3+ Years",
+      description: "A dedicated educator making IT concepts accessible and engaging."
     }
   ];
 

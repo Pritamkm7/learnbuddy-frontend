@@ -18,6 +18,17 @@ function About() {
         lessons, notes, practice questions, quizzes, and progress
         tracking.
       </p>
+
+      {/* Footer Details - MOVED INSIDE THE MAIN TAG! */}
+      <div className="about-footer">
+        <p className="made-with-love">
+          Made with ❤️ in India
+        </p>
+        <p className="copyright-text">
+          &copy; {new Date().getFullYear()} LearnBuddy. All rights reserved.
+        </p>
+      </div>
+      
     </main>
   )
 }
