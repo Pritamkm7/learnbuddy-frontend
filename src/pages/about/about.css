@@ -1,0 +1,44 @@
+.about-page {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 42px;
+  margin-bottom: 25px;
+  color: #2563eb;
+}
+
+.about-page h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.about-page p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 50px 20px;
+  }
+
+  .about-page h1 {
+    font-size: 32px;
+  }
+
+  .about-page h2 {
+    font-size: 26px;
+  }
+
+  .about-page p {
+    font-size: 16px;
+  }
+}

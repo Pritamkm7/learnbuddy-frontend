@@ -1,0 +1,101 @@
+.choose-class {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.choose-class h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.choose-class > p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.class-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.class-card {
+  width: 180px;
+  padding: 30px 20px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.class-card:hover {
+  transform: translateY(-8px);
+  border-color: #2563eb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.class-popup-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+.class-popup {
+  width: 400px;
+  max-width: 90%;
+
+  padding: 40px 30px;
+
+  background: white;
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+
+  animation: popup 0.3s ease;
+}
+
+.class-popup h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.class-popup h3 {
+  font-size: 24px;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.class-popup p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.class-popup button {
+  background: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 28px;
+
+  font-size: 16px;
+  cursor: pointer;
+}

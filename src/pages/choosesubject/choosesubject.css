@@ -1,0 +1,72 @@
+.choose-subject {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.choose-subject h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.choose-subject > p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.subject-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.subject-card {
+  width: 220px;
+  padding: 40px 20px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subject-card:hover {
+  transform: translateY(-8px);
+  border-color: #2563eb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #2563eb;
+}
+
+/* Popup Styling (Reused from Class selection for consistency) */
+.subject-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.subject-popup {
+  width: 400px;
+  max-width: 90%;
+  padding: 40px 30px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.subject-popup h2 { font-size: 28px; margin-bottom: 10px; }
+.subject-popup h3 { font-size: 24px; color: #2563eb; margin-bottom: 15px; }
+.subject-popup p { color: #666; margin-bottom: 25px; }
+.subject-popup button {
+  background: #2563eb; color: white; border: none;
+  border-radius: 8px; padding: 12px 28px; font-size: 16px; cursor: pointer;
+}

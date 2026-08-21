@@ -1,0 +1,57 @@
+.courses-container {
+  min-height: 100vh;
+  background-color: #fffde7;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.courses-title {
+  color: #1e3a8a;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.courses-subtitle {
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.courses-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 250px;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Added a nice hover effect since we are using real CSS now! */
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.course-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.course-card-title {
+  color: #2563eb;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-card-desc {
+  color: #666;
+}
